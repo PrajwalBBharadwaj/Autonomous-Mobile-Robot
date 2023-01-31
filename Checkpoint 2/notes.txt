@@ -1,0 +1,19 @@
+>> turtlebot3 teleop publishes velocity commands on,
+   rospy.Publisher('cmd_vel', Twist, queue_size=10)
+
+Software structure:
+
+	Turtlebot3:
+	 --> raspicam_node (out: raw image)
+	 --> Robot bringup node (subscribes to /cmd_vel for movement) (in: velocity command)
+
+
+	Remote PC
+	--> A node to subscribe to images from turtlebot and process it (in:raw image, out: center cordinates of ball)
+	--> A node to subscribe to center coorindates of the ball and calculate velocity commands (in: center cordinates of ball, out: velocity command)
+
+
+
+
+
+	

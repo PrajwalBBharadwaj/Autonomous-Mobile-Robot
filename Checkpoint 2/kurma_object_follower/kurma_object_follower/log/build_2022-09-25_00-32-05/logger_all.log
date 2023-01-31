@@ -1,0 +1,67 @@
+[3.740s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.741s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff91ff36a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff91ff36a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff91e77520>)
+[4.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.387s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower'
+[4.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.531s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.532s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.533s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.537s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.801s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/burger/turtlebot3_ws/install
+[4.812s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/burger/turtlebot3_ws/src/install
+[4.823s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/burger/turtlebot3_ws/src/abhi_lab2/abhi_lab2/install
+[4.843s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 226 installed packages in /opt/ros/foxy
+[4.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.432s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.482s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.485s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.550s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.555s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.555s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.605s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/local_setup.ps1'
+[5.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/_local_setup_util_ps1.py'
+[5.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/setup.ps1'
+[5.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/local_setup.sh'
+[5.649s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/_local_setup_util_sh.py'
+[5.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/setup.sh'
+[5.674s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/local_setup.bash'
+[5.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/setup.bash'
+[5.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/local_setup.zsh'
+[5.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/turtlebot3_ws/src/kurma_object_follower/kurma_object_follower/install/setup.zsh'
